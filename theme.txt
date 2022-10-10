@@ -1,0 +1,50 @@
+  // Custom themes
+  "workbench.colorCustomizations": {
+    //Turn folders and files withe
+    "sideBar.foreground": "#fff",
+    "sideBar.background": "#222121",
+    "sideBar.border": "#00ff95",
+    "icon.foreground": "#ffc800",
+    
+    "activityBar.background": "#00000016",
+    "activityBar.foreground": "#00ff84",
+    "activityBar.inactiveForeground": "#257b26f6",
+
+    "editor.foreground": "#006975",
+    "editor.background": "#1114138e"
+  },
+
+  "workbench.colorTheme": "Omni",
+  "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+        "comments": "#d4922f",
+
+    },
+    "[*]": {
+      "comments": "#f86969",
+      "variables": "#c5c4c4",
+      "keywords": "#ec721b",
+      "textMateRules": [
+        {
+          "scope": "keyword.operator",
+          "settings": {
+            "foreground": "#b99e28"
+          }
+        },
+        {
+          "scope": "constant",
+          "settings": {
+            "foreground": "#ff3030c4",
+            "fontStyle": "italic bold"
+          }
+        },
+        {
+          "scope": "constant.numeric",
+          "settings": {
+            "foreground": "#009325c2",
+            "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
